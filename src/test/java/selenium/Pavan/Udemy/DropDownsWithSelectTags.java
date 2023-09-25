@@ -19,11 +19,11 @@ public class DropDownsWithSelectTags {
         Select dropDown = new Select(slct);
         dropDown.selectByVisibleText("USA");
         List<WebElement> options =dropDown.getOptions();
-        System.out.println("Total number of selenium.Pavan.Udemy.DropDowns " + options.size()); // this is giving the number of options avaialble in the drop Down
+        System.out.println("Total number of DropDowns " + options.size()); // this is giving the number of options avaialble in the drop Down
         for(int i =0;i<options.size();i++){ // this is a for loop to give the values within the dropdown. 
             System.out.println(options.get(i).getText());
         }
-        driver.quit();
+        //driver.quit();
 
     }
 }

@@ -2,12 +2,11 @@ package selenium.Pavan.Udemy;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class WebTableFormat {
+public class WebTableFormatWithSpecificAuthor {
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         driver.get("https://testautomationpractice.blogspot.com/");
@@ -19,34 +18,39 @@ public class WebTableFormat {
         //column
         int column = driver.findElements(By.xpath("//table[@name='BookTable']//tr//th")).size();
 
-        System.out.println("Number Of Rows " + row);
-        System.out.println("Number Of Column " + column);
 
-        String value = driver.findElement(By.xpath("//table[@name='BookTable']//tr[7]//td[1]")).getText();
-        System.out.println("for a specific value in the data table " + value);
-
-        System.out.println("Book Name " + "\t"+"Author" + "\t"+"Subject " + "\t"+"Price " + "\t");
-        for (int i = 2; i <= row; i++) {
-            for (int j = 1; j <= column; j++) {
-                String value2 = driver.findElement(By.xpath("//table[@name='BookTable']//tr[" + i + "]//td[" + j + "]")).getText();
-                System.out.print(value2 + "\t");
-
-
-            }
-            System.out.println();
-
-        }
-
-//        for(int r=2;r<=row;r++)
-//        {
-//            for(int c=1;c<=column;c++)
-//            {
-//                String value3=driver.findElement(By.xpath("//table[@name='BookTable']//tr["+r+"]//td["+c+"]")).getText();
-//                System.out.print(value3+"\t");
+//        for (int r = 2; r <= row; r++) {
+//            //String author = driver.findElement(By.xpath("//table[@name='BookTable']//tr[" + r + "]")).getText();
+//            String authorL = driver.findElement(By.xpath("//table[@name='BookTable']//tr[" + r + "]/td[2]")).getText();
+//            if (authorL.equals("Amit")) {
+//                String bookName = driver.findElement(By.xpath("//table[@name='BookTable']//tr[" + r + "]/td[1]")).getText();
+//                System.out.println(authorL + " " + bookName);
 //            }
-//            System.out.println();
+//
 //        }
 
-        driver.quit();
+        // driver.quit();
+
+
+        	/*for(int r=2;r<=rows;r++)
+		{
+			String author=driver.findElement(By.xpath("//table[@name='BookTable']//tr["+r+"]/td[2]")).getText();
+
+			if(author.equals("Mukesh"))
+			{
+				String bookname=driver.findElement(By.xpath("//table[@name='BookTable']//tr["+r+"]/td[1]")).getText();
+				System.out.println(author+"    "+bookname);
+			}
+
+		}*/
+
+        //find all number of prices of books
+        int sum = 0;
+        for (int r = 2; r < row; r++) {
+            String price = driver.findElement(By.xpath("//table[@name='BookTable']//tr[" + r + "]//td[4]")).getText();
+            sum = sum + Integer.parseInt(price);
+        }
+        System.out.println(sum);
+            driver.quit();
     }
 }

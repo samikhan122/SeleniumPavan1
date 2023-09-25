@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-public class WindowHandles {
+public class WindowHandles2 {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
@@ -29,7 +29,6 @@ public class WindowHandles {
 
         String parentWindowID = windowidsList.get(0);
         String childWindowID = windowidsList.get(1);
-
         //switch to child window
         driver.switchTo().window(childWindowID);
 
@@ -38,25 +37,17 @@ public class WindowHandles {
         //switch to parent window id
         driver.switchTo().window(parentWindowID);
 
-        /*
-		List <String>windowidsList=new ArrayList(windowIDs); // converted Set ---> List
-
-		String parentWindowID=windowidsList.get(0);
-		String childWindowID=windowidsList.get(1);
-
-
-		//Swith to child window
-		driver.switchTo().window(childWindowID);
-		driver.findElement(By.xpath("//div[@class='d-flex web-menu-btn']//li[1]//a[1]")).click();
-		*/
-
-
-        driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin");
-        driver.findElement(By.xpath("//input[@name='password']")).sendKeys("admin123");
-        driver.findElement(By.xpath("//button[@type='submit']")).click();
-
-
         //Approach 2
+        for(String winid:windowsIds)
+        {
+            String title=driver.switchTo().window(winid).getTitle();
+
+            if( title.equals("OrangeHRM HR Software | Free & Open Source HR Software | HRMS | HRIS | OrangeHRM"))
+            {
+                driver.findElement(By.xpath("//div[@class='d-flex web-menu-btn']//li[1]//a[1]")).click();
+            }
+        }
 
     }
+    //OrangeHRM HR Software | Free & Open Source HR Software | HRMS | HRIS | OrangeHRM
 }
