@@ -10,6 +10,8 @@ import java.time.Duration;
 
 public class ActionsClassWithMouseHover {
     public static void main(String[] args) {
+       // WebDriver driver = new ChromeDriver();
+        System.setProperty("webdriver.chrome.driver","/Users/alikhan/IdeaProjects/SeleniumPavan1/BrowserDriver/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://demo.opencart.com/");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

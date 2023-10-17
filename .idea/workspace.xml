@@ -5,39 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="639b206f-e395-48ce-908f-dcfbc97673bf" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ScreenShots/fullPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrowserDriver/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/BrowserDriver/chromedriver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Login.Feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/Login.Feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/AWindowsPopUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/AWindowsPopUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginRahulShetty.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/ActionsClassWithMouseHover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/ActionsClassWithMouseHover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/Assingment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/Assingment1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/AutheticatedPopUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/AutheticatedPopUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/DatePicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/DatePicker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/DeadLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/DeadLinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/DoubleClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/DoubleClick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/DragAndDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/DragAndDrop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/DropDownsWithSelectTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/DropDownsWithSelectTags.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/DropDownsWithoutSelectTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/DropDownsWithoutSelectTag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/DropDownsWithoutSelectTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/DropDownsWithoutSelectTags.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/DummyTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/DummyTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/Google.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/Google.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/KeyBoardActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/KeyBoardActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/NewTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/NewTab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/PaginaitionDynamic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/PaginaitionDynamic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/PraticeAutoSuggestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/PraticeAutoSuggestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/RightClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/RightClick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/ScreenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/ScreenShot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/WebTableFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/WebTableFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/WebTableFormatWithSpecificAuthor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/WebTableFormatWithSpecificAuthor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/WindowHandles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/WindowHandles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/WindowHandles2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/WindowHandles2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/day017.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/day017.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/firstTestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/firstTestLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/flightBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/flightBooking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/iframes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/iframes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/BrowserCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/BrowserCommands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/CondtionalCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Pavan/Udemy/CondtionalCommands.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2UOgRJKayySgPLcCYKqcDcYECPS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -70,14 +49,26 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alikhan/IdeaProjects/SeleniumPavan1/src/test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/BrowserDriver" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/test/resources/BrowserDriver" />
@@ -89,9 +80,9 @@
       <recent name="selenium.Pavan.Udemy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test01">
-    <configuration name="DeadLinks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium.Pavan.Udemy.DeadLinks" />
+  <component name="RunManager" selected="TestNG.BrowserCommands.Test01">
+    <configuration name="AWindowsPopUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selenium.Pavan.Udemy.AWindowsPopUp" />
       <module name="Selenium101" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewTab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium.Pavan.Udemy.NewTab" />
+    <configuration name="ActionsClassWithMouseHover" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selenium.Pavan.Udemy.ActionsClassWithMouseHover" />
       <module name="Selenium101" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScreenShot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium.Pavan.Udemy.ScreenShot" />
+    <configuration name="BrowserCommands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selenium.Pavan.Udemy.BrowserCommands" />
       <module name="Selenium101" />
       <extension name="coverage">
         <pattern>
@@ -129,15 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test01" />
-      <module name="Selenium101" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day017" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium.Pavan.Udemy.day017" />
+    <configuration name="CondtionalCommands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selenium.Pavan.Udemy.CondtionalCommands" />
       <module name="Selenium101" />
       <extension name="coverage">
         <pattern>
@@ -145,17 +129,35 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BrowserCommands.Test01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.Pavan.Udemy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium.Pavan.Udemy" />
+      <option name="MAIN_CLASS_NAME" value="selenium.Pavan.Udemy.BrowserCommands" />
+      <option name="METHOD_NAME" value="Test01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test01" />
-        <item itemvalue="Application.ScreenShot" />
-        <item itemvalue="Application.DeadLinks" />
-        <item itemvalue="Application.day017" />
-        <item itemvalue="Application.NewTab" />
+        <item itemvalue="TestNG.BrowserCommands.Test01" />
+        <item itemvalue="Application.BrowserCommands" />
+        <item itemvalue="Application.CondtionalCommands" />
+        <item itemvalue="Application.ActionsClassWithMouseHover" />
+        <item itemvalue="Application.AWindowsPopUp" />
       </list>
     </recent_temporary>
   </component>
@@ -167,8 +169,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692816034780</updated>
+      <workItem from="1695736755221" duration="3882000" />
+      <workItem from="1695826748042" duration="3001000" />
+      <workItem from="1695831938987" duration="55000" />
+      <workItem from="1695834221148" duration="8000" />
+      <workItem from="1696950585897" duration="1769000" />
+      <workItem from="1697118271821" duration="109000" />
+      <workItem from="1697135388973" duration="2107000" />
+      <workItem from="1697223189692" duration="597000" />
+      <workItem from="1697483449723" duration="5458000" />
+      <workItem from="1697549595080" duration="490000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
